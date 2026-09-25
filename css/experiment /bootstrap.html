@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .bootstrap-card{
+            background-color: #1a1a1a;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            background-color: white;
+        }
+        .go-some-button{
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+<div class="navbar-boot">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<div class="bootstrap-card">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://img.magnific.com/free-photo/young-man-sad-expression_1194-2826.jpg?semt=ais_hybrid&w=740&q=80" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Lorem ipsum.</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab expedita explicabo inventore itaque maiores perferendis rem rerum tenetur? Eum, exercitationem.</p>
+            <a href="#" class="btn btn-primary go-some-button">Go somewhere</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
